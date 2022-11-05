@@ -1,10 +1,6 @@
 # Lab 7 - Exploiting Samba and Exfiltrating Data 
 
-Samba is a free software implementation of the SMB networking protocol. It provides file and print services for various systems. It runs on most Unix-like systems such as Linux, Solaris, AIX etc. 
-
-In this Lab, you will be exploiting the Samba implementation on Metasploitable as well as use netcat to exfiltrate data.
-
-Ensure that both the Kali and the metasploitable machines are powered on and on the same network. Verify connectivity between them by using the ping command.
+Target IP:
 
 1. Run nmap against the metasploitable machine using the following command.
 
