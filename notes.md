@@ -100,3 +100,5 @@ telnetd:*:112:120::/nonexistent:/bin/false
 proftpd:!:113:65534::/var/run/proftpd:/bin/false
 statd:*:114:65534::/var/lib/nfs:/bin/false`
 ```
+
+[user_logins.txt](2022-11-4.png)
