@@ -10,7 +10,7 @@ Ensure that both the Kali and the metasploitable machines are powered on and on 
 
 	`sudo nmap -sV <metasploitable IP> -vvv` (make a note of open ports and services).
 
-make a note of what port Samba is running.
+	make a note of what port Samba is running.
 
 2. On your Kali machine launch the metasploit framework.
 
@@ -56,4 +56,4 @@ go back to the listening netcat window and terminate it using CTRL+C. Cat the co
 
 	`unshadow passwd.txt shadow.txt > user_logins.txt` 
 
-14. What is the content of the combined `user_logins.txt` file (include screen shot).
+14. What is the content of the combined `user_logins.txt` file (include screenshot).
