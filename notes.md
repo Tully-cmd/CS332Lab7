@@ -9,8 +9,9 @@ Target: Metasploitable
 
 	make a note of what port Samba is running.
 
-	`└─$ sudo nmap -sV 172.16.0.22 -vvv | grep Samba
-	139/tcp  open  netbios-ssn syn-ack ttl 64 Samba smbd 3.X - 4.X (workgroup: WORKGROUP)
+	`$ sudo nmap -sV 172.16.0.22 -vvv | grep Samba`
+
+	`139/tcp  open  netbios-ssn syn-ack ttl 64 Samba smbd 3.X - 4.X (workgroup: WORKGROUP)
 	445/tcp  open  netbios-ssn syn-ack ttl 64 Samba smbd 3.X - 4.X (workgroup: WORKGROUP)`
 
 
