@@ -101,4 +101,4 @@ proftpd:!:113:65534::/var/run/proftpd:/bin/false
 statd:*:114:65534::/var/lib/nfs:/bin/false`
 ```
 
-![User Logins](./2022-11-4.png)
+![User Logins](./2022-11-04.png)
