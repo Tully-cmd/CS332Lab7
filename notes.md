@@ -13,8 +13,7 @@ Target: Metasploitable
 	$ sudo nmap -sV 172.16.0.22 -vvv | grep Samba
 
 	139/tcp  open  netbios-ssn syn-ack ttl 64 Samba smbd 3.X - 4.X (workgroup: WORKGROUP)
-
-	445/tcp  open  netbios-ssn syn-ack ttl 64 Samba smbd 3.X - 4.X (workgroup: WORKGROUP)`
+	445/tcp  open  netbios-ssn syn-ack ttl 64 Samba smbd 3.X - 4.X (workgroup: WORKGROUP)
 	```
 
 2. On your Kali machine launch the metasploit framework.
@@ -63,7 +62,8 @@ Target: Metasploitable
 
 14. What is the content of the combined `user_logins.txt` file (include screenshot).
 
-	`root:$1$/avpfBJ1$x0z8w5UF9Iv./DR9E9Lid.:0:0:root:/root:/bin/bash
+```
+root:$1$/avpfBJ1$x0z8w5UF9Iv./DR9E9Lid.:0:0:root:/root:/bin/bash
 daemon:*:1:1:daemon:/usr/sbin:/bin/sh
 bin:*:2:2:bin:/bin:/bin/sh
 sys:$1$fUX6BPOt$Miyc3UpOzQJqz4s5wFD9l0:3:3:sys:/dev:/bin/sh
@@ -99,4 +99,4 @@ service:$1$kR3ue7JZ$7GxELDupr5Ohp6cjZ3Bu//:1002:1002:,,,:/home/service:/bin/bash
 telnetd:*:112:120::/nonexistent:/bin/false
 proftpd:!:113:65534::/var/run/proftpd:/bin/false
 statd:*:114:65534::/var/lib/nfs:/bin/false`
-
+```
